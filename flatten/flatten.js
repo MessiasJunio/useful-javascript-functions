@@ -1,3 +1,9 @@
+/**
+ * Create a new array or object with all sub-array elements concatenated
+ * 
+ * @param {*} value 
+ * @returns any
+ */
 function flatten(value) {
   if (typeof value !== "object" || value === null) {
     return value;
