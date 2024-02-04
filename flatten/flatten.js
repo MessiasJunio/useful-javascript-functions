@@ -1,6 +1,7 @@
 /**
  * Create a new array or object with all sub-array elements concatenated
  * 
+ * It's useful if you trying to reduce a large nested array or object
  * @param {*} value 
  * @returns any
  */
